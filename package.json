@@ -1,0 +1,38 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "belajar nodejs npm",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo \"prestart\"",
+    "start": "node index.js",
+    "poststart": "echo \"poststart\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivannoard/learn-nodejs.git"
+  },
+  "keywords": [
+    "learn",
+    "nodejs",
+    "ivannoard"
+  ],
+  "author": "Ivan Nova Ardiansyah",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ivannoard/learn-nodejs/issues"
+  },
+  "homepage": "https://github.com/ivannoard/learn-nodejs#readme",
+  "dependencies": {
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "moment": "^2.29.4"
+  }
+}
